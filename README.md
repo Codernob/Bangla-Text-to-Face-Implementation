@@ -17,7 +17,7 @@ Steps for running our code:
    In `scripts/text_encoder/sentence_encoder.py', edit the location of `Bangla_FastText_skipgram.pickle` accordingly.
 3. Download images of the CelebA dataset[3] and place in `dataset/img_align_celeba`
    https://www.kaggle.com/datasets/jessicali9530/celeba-dataset
-4. In `Face-GANs`, you may edit the absolute paths as required.
+4. In `Face-GANs/`, you may edit the absolute paths as required.
 5. You are now free to train, pause, resume, evaluate the DCGAN, SAGAN, DFGAN models by using the jupyter notebook files provided in `Face-GANs`
 6. Some sample scripts for calculating FID, IS, LPIPS, FSS, FSD are provided in `evaluation`.
 
