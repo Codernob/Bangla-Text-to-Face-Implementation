@@ -1,6 +1,6 @@
 # Official Implementation of the IJACSA paper : Facial Image Generation from Bangla Textual Description using DCGAN and Bangla FastText
 
-This repository contains the official implementation of the IJACSA paper titled Facial Image Generation from Bangla Textual Description using DCGAN and Bangla FastText [1].
+This repository contains the official implementation of the IJACSA paper titled "Facial Image Generation from Bangla Textual Description using DCGAN and Bangla FastText" [1].
 This implementation is built based on the FGTD [2] github repository.
 
 Overall System:
@@ -9,16 +9,19 @@ Overall System:
 Qualitative Results:
 ![generated images and captions grid](https://github.com/Codernob/Bangla-Text-to-Face-Implementation/assets/55651740/1d25d396-6bcb-40b6-9888-4cc3f6c9778a)
 
+Computational Feasibility:
+The DCGAN and SAGAN models can run within 8 GB VRAM; while DFGAN requires 12 GB VRAM. Training time is no more than 1 day on a single RTX 3060.
+
 Please read our paper [1] for further details.
 
 Steps for running our code:
 1. Adopt the `fgbtd.yml` anaconda environment.
 2. To use the Bangla FastText[4] pretrained text encoder model, Collect the `Bangla_FastText_skipgram.pickle` file from https://drive.google.com/uc?id=1ENn6e9wvVNgrVufflmQvascLgPVQFEfp
-   In `scripts/text_encoder/sentence_encoder.py', edit the location of `Bangla_FastText_skipgram.pickle` accordingly.
+   and in `scripts/text_encoder/sentence_encoder.py', edit the location of `Bangla_FastText_skipgram.pickle` accordingly.
 3. Download images of the CelebA dataset[3] and place in `dataset/img_align_celeba`
    https://www.kaggle.com/datasets/jessicali9530/celeba-dataset
 4. In `Face-GANs/`, you may edit the absolute paths as required.
-5. You are now free to train, pause, resume, evaluate the DCGAN, SAGAN, DFGAN models by using the jupyter notebook files provided in `Face-GANs`
+5. You are now free to train, pause, resume, evaluate the DCGAN, SAGAN, DFGAN models by using the jupyter notebook files provided in `Face-GANs`. Remember to set input dimension of generator to 300 for Bangla FastText and 768 for sbnltk sentence transformer.
 6. Some sample scripts for calculating FID, IS, LPIPS, FSS, FSD are provided in `evaluation`.
 
 # References
