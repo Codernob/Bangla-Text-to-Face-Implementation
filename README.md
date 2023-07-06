@@ -1,1 +1,28 @@
 # Official Implementation of the IJACSA paper : Facial Image Generation from Bangla Textual Description using DCGAN and Bangla FastText
+
+This repository contains the official implementation of the IJACSA paper titled Facial Image Generation from Bangla Textual Description using DCGAN and Bangla FastText [1].
+This implementation is built based on the FGTD[2] github repository.
+
+Overall System:
+![download](https://github.com/Codernob/Bangla-Text-to-Face-Implementation/assets/55651740/5c8f1428-9c8e-4932-9fd1-97ad94425d7e)
+
+Qualitative Results:
+![generated images and captions grid](https://github.com/Codernob/Bangla-Text-to-Face-Implementation/assets/55651740/1d25d396-6bcb-40b6-9888-4cc3f6c9778a)
+
+Please read our paper[1] for further details.
+
+Steps for running our code:
+1. Adopt the `fgbtd.yml` anaconda environment.
+2. To use the Bangla FastText[4] pretrained text encoder model, Collect the `Bangla_FastText_skipgram.pickle` file from https://drive.google.com/uc?id=1ENn6e9wvVNgrVufflmQvascLgPVQFEfp
+   In `scripts/text_encoder/sentence_encoder.py', edit the location of `Bangla_FastText_skipgram.pickle` accordingly.
+3. Download images of the CelebA dataset[3] and place in `dataset/img_align_celeba`
+   https://www.kaggle.com/datasets/jessicali9530/celeba-dataset
+4. In `Face-GANs`, you may edit the absolute paths as required.
+5. You are now free to train, pause, resume, evaluate the DCGAN, SAGAN, DFGAN models by using the jupyter notebook files provided in `Face-GANs`
+6. Some sample scripts for calculating FID, IS, LPIPS, FSS, FSD are provided in `evaluation`.
+
+# References
+[1] http://dx.doi.org/10.14569/IJACSA.2023.01406134
+[2] https://github.com/kad99kev/FGTD
+[3] https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
+[4] https://www.mdpi.com/2076-3417/12/6/2848
