@@ -17,7 +17,7 @@ Please read our paper [1] for further details.
 Steps for running our code:
 1. Adopt the `fgbtd.yml` anaconda environment.
 2. To use the Bangla FastText[4] pretrained text encoder model, Collect the `Bangla_FastText_skipgram.pickle` file from https://drive.google.com/uc?id=1ENn6e9wvVNgrVufflmQvascLgPVQFEfp
-   and in `scripts/text_encoder/sentence_encoder.py', edit the location of `Bangla_FastText_skipgram.pickle` accordingly.
+   and in `scripts/text_encoder/sentence_encoder.py'`, edit the location of `Bangla_FastText_skipgram.pickle` accordingly.
 3. Download images of the CelebA dataset[3] and place in `dataset/img_align_celeba`
    https://www.kaggle.com/datasets/jessicali9530/celeba-dataset
 4. In `Face-GANs/`, you may edit the absolute paths as required.
