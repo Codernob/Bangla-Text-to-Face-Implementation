@@ -25,6 +25,7 @@ Steps for running our code:
 6. Some sample scripts for calculating FID, IS, LPIPS, FSS, FSD are provided in `evaluation`.
 
 If you use ideas from our paper [1], kindly cite it.
+
 `@article{arnob2023facial,
   title={Facial Image Generation from Bangla Textual Description using DCGAN and Bangla FastText},
   author={Arnob, Noor Mairukh Khan and Rahman, Nakiba Nuren and Mahmud, Saiyara and Uddin, Md Nahiyan and Rahman, Rashik and Saha, Aloke Kumar},
