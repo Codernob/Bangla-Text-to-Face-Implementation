@@ -26,7 +26,7 @@ Steps for running our code:
 
 If you use ideas from our paper [1], kindly cite it.
 
-`@article{arnob2023facial,
+`@article{arnob2023facial,<br>
   title={Facial Image Generation from Bangla Textual Description using DCGAN and Bangla FastText},
   author={Arnob, Noor Mairukh Khan and Rahman, Nakiba Nuren and Mahmud, Saiyara and Uddin, Md Nahiyan and Rahman, Rashik and Saha, Aloke Kumar},
   journal={International Journal of Advanced Computer Science and Applications},
