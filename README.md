@@ -24,6 +24,17 @@ Steps for running our code:
 5. You are now free to train, pause, resume, evaluate the DCGAN, SAGAN, DFGAN models by using the jupyter notebook files provided in `Face-GANs`. Remember to set input dimension of generator to 300 for Bangla FastText and 768 for sbnltk sentence transformer.
 6. Some sample scripts for calculating FID, IS, LPIPS, FSS, FSD are provided in `evaluation`.
 
+If you use ideas from our paper [1], kindly cite it.
+`@article{arnob2023facial,
+  title={Facial Image Generation from Bangla Textual Description using DCGAN and Bangla FastText},
+  author={Arnob, Noor Mairukh Khan and Rahman, Nakiba Nuren and Mahmud, Saiyara and Uddin, Md Nahiyan and Rahman, Rashik and Saha, Aloke Kumar},
+  journal={International Journal of Advanced Computer Science and Applications},
+  volume={14},
+  number={6},
+  year={2023},
+  publisher={Science and Information (SAI) Organization Limited}
+}`
+
 # References
 [1] http://dx.doi.org/10.14569/IJACSA.2023.01406134 <br />
 [2] https://github.com/kad99kev/FGTD <br />
