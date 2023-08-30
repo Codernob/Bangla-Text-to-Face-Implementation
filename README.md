@@ -24,7 +24,7 @@ Steps for running our code:
 5. You are now free to train, pause, resume, evaluate the DCGAN, SAGAN, DFGAN models by using the jupyter notebook files provided in `Face-GANs`. Remember to set input dimension of generator to 300 for Bangla FastText and 768 for sbnltk sentence transformer.
 6. Some sample scripts for calculating FID, IS, LPIPS, FSS, FSD are provided in `evaluation`.
 
-If you use ideas from our paper [1], kindly cite it.
+If you use ideas from our paper [1], kindly cite it. The bibtex citation is given below.
 
 ```
 @article{arnob2023facial,
