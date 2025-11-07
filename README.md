@@ -46,3 +46,18 @@ If you use ideas from our paper [1], kindly cite it. The bibtex citation is give
 [3] https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html <br />
 [4] https://www.mdpi.com/2076-3417/12/6/2848 <br />
 [5] https://www.kaggle.com/datasets/rashikrahmanpritom/celeba-bangla-dataset <br />
+
+# Citation
+If you found my code useful and imploy it in your own work, please cite my paper. The BibTeX citation is given below.
+```
+@article{arnob2023facial,
+  title={Facial image generation from Bangla textual description using DCGAN and Bangla FastText},
+  author={Arnob, Noor Mairukh Khan and Rahman, Nakiba Nuren and Mahmud, Saiyara and Uddin, Md Nahiyan and Rahman, Rashik and Saha, Aloke Kumar},
+  journal={International Journal of Advanced Computer Science and Applications},
+  volume={14},
+  number={6},
+  pages={2023},
+  year={2023},
+  publisher={Science and Information (SAI) Organization Limited}
+}
+```
