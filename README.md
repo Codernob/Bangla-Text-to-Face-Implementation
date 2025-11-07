@@ -48,7 +48,7 @@ If you use ideas from our paper [1], kindly cite it. The bibtex citation is give
 [5] https://www.kaggle.com/datasets/rashikrahmanpritom/celeba-bangla-dataset <br />
 
 # Citation
-If you found my code useful and imploy it in your own work, please cite my paper. The BibTeX citation is given below.
+If you found my code useful and apply it in your own work, please cite my paper. The BibTeX citation is given below.
 ```
 @article{arnob2023facial,
   title={Facial image generation from Bangla textual description using DCGAN and Bangla FastText},
